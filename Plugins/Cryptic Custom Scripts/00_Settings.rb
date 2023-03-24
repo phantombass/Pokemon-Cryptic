@@ -4,7 +4,7 @@ module Settings
   GAIN_EXP_FOR_CAPTURE                 = false
 end
 
-Essentials::ERROR_TEXT += "[Pokémon Cryptic v#{Settings::GAME_VERSION}]\r\n"
+Essentials::ERROR_TEXT += "[Pokémon HegeMEANY v#{Settings::GAME_VERSION}]\r\n"
 
 class MapLog  
   attr_reader :list
