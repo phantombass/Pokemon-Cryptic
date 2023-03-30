@@ -398,34 +398,6 @@ def pbEggMoveScreen(pkmn)
   return retval
 end
 
-MenuHandlers.add(:party_menu, :relearn, {
-  "name"      => _INTL("Relearn Moves"),
-  "order"     => 31,
-  "condition"   => proc { next $game_map.map_id == 32 && $game_switches[62]},
-  "effect"    => proc { |screen, party, party_idx|
-    pkmn = party[party_idx]
-    if pkmn.can_relearn_move?
-      pbRelearnMoveScreen(pkmn)
-    else
-      screen.pbDisplay(_INTL("This Pokémon cannot relearn any moves."))
-    end
-  }
-})
-
-MenuHandlers.add(:party_menu, :egg_moves, {
-  "name"      => _INTL("Teach Egg Moves"),
-  "order"     => 32,
-  "condition"   => proc { next $game_map.map_id == 32 && $game_switches[63] },
-  "effect"    => proc { |screen, party, party_idx|
-    pkmn = party[party_idx]
-    if pkmn.has_egg_move?
-      pbEggMoveScreen(pkmn)
-    else
-      screen.pbDisplay(_INTL("This Pokémon cannot relearn any moves."))
-    end
-  }
-})
-
 class PokemonSummary_Scene
   def drawPageFour
    overlay = @sprites["overlay"].bitmap

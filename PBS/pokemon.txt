@@ -3812,6 +3812,7 @@ Habitat = Rare
 Category = Freeze
 Pokedex = Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall.
 Generation = 1
+Flags = Legendary
 #-------------------------------
 [ZAPDOS]
 Name = Zapdos
@@ -3837,6 +3838,7 @@ Habitat = Rare
 Category = Electric
 Pokedex = Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. It gains power if it is stricken by lightning bolts.
 Generation = 1
+Flags = Legendary
 #-------------------------------
 [MOLTRES]
 Name = Moltres
@@ -3862,6 +3864,7 @@ Habitat = Rare
 Category = Flame
 Pokedex = Moltres is a legendary bird Pokémon that can control fire. If injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.
 Generation = 1
+Flags = Legendary
 #-------------------------------
 [DRATINI]
 Name = Dratini
@@ -3968,6 +3971,7 @@ Habitat = Rare
 Category = Genetic
 Pokedex = A Pokémon that was created by genetic manipulation. However, even though the scientific power of humans made its body, they failed to give it a warm heart.
 Generation = 1
+Flags = Legendary
 #-------------------------------
 [MEW]
 Name = Mew
@@ -3995,6 +3999,7 @@ Generation = 1
 WildItemCommon = LUMBERRY
 WildItemUncommon = LUMBERRY
 WildItemRare = LUMBERRY
+Flags = Legendary
 #-------------------------------
 [CHIKORITA]
 Name = Chikorita
@@ -6414,6 +6419,7 @@ Habitat = Grassland
 Category = Thunder
 Pokedex = Raikou embodies the speed of lightning. Its roars send shock waves shuddering through the air and ground as if lightning bolts were crashing down.
 Generation = 2
+Flags = Legendary
 #-------------------------------
 [ENTEI]
 Name = Entei
@@ -6439,6 +6445,7 @@ Habitat = Grassland
 Category = Volcano
 Pokedex = Entei embodies the passion of magma. It is thought to have been born in the eruption of a volcano. It blasts fire that consumes all that it touches.
 Generation = 2
+Flags = Legendary
 #-------------------------------
 [SUICUNE]
 Name = Suicune
@@ -6464,6 +6471,7 @@ Habitat = Grassland
 Category = Aurora
 Pokedex = Suicune embodies the compassion of a pure spring of water. It runs across the land with gliding elegance. It has the power to purify dirty water.
 Generation = 2
+Flags = Legendary
 #-------------------------------
 [LARVITAR]
 Name = Larvitar
@@ -6566,6 +6574,7 @@ Habitat = Rare
 Category = Diving
 Pokedex = Lugia is so powerful even a light fluttering of its wings can blow apart houses. As a result, it chooses to live out of sight deep under the sea.
 Generation = 2
+Flags = Legendary
 #-------------------------------
 [HOOH]
 Name = Ho-Oh
@@ -6594,6 +6603,7 @@ Generation = 2
 WildItemCommon = SACREDASH
 WildItemUncommon = SACREDASH
 WildItemRare = SACREDASH
+Flags = Legendary
 #-------------------------------
 [CELEBI]
 Name = Celebi
@@ -6621,6 +6631,7 @@ Generation = 2
 WildItemCommon = LUMBERRY
 WildItemUncommon = LUMBERRY
 WildItemRare = LUMBERRY
+Flags = Legendary
 #-------------------------------
 [TREECKO]
 Name = Treecko
@@ -9961,6 +9972,7 @@ Habitat = Cave
 Category = Rock Peak
 Pokedex = A Pokémon that is made entirely of rocks and boulders. If parts of its body chip off in battle, Regirock repairs itself by adding new rocks.
 Generation = 3
+Flags = Legendary
 #-------------------------------
 [REGICE]
 Name = Regice
@@ -9986,6 +9998,7 @@ Habitat = Cave
 Category = Iceberg
 Pokedex = Its entire body is made of Antarctic ice. After extensive studies, researchers believe the ice was formed during an ice age.
 Generation = 3
+Flags = Legendary
 #-------------------------------
 [REGISTEEL]
 Name = Registeel
@@ -10011,6 +10024,7 @@ Habitat = Cave
 Category = Iron
 Pokedex = Its body is harder than any other kind of metal. The body metal is composed of a mysterious substance. Not only is it hard, it shrinks and stretches flexibly.
 Generation = 3
+Flags = Legendary
 #-------------------------------
 [LATIAS]
 Name = Latias
@@ -10035,6 +10049,7 @@ Habitat = WatersEdge
 Category = Eon
 Pokedex = They make a small herd of only several members. They rarely make contact with people or other Pokémon. They disappear if they sense enemies.
 Generation = 3
+Flags = Legendary
 #-------------------------------
 [LATIOS]
 Name = Latios
@@ -10059,6 +10074,7 @@ Habitat = WatersEdge
 Category = Eon
 Pokedex = Even in hiding, it can detect the locations of others and sense their emotions since it has telepathy. Its intelligence allows it to understand human languages.
 Generation = 3
+Flags = Legendary
 #-------------------------------
 [KYOGRE]
 Name = Kyogre
@@ -10083,6 +10099,7 @@ Habitat = Sea
 Category = Sea Basin
 Pokedex = Kyogre has appeared in mythology as the creator of the sea. After long years of feuding with Groudon, it took to sleep at the bottom of the sea.
 Generation = 3
+Flags = Legendary
 #-------------------------------
 [GROUDON]
 Name = Groudon
@@ -10107,6 +10124,7 @@ Habitat = RoughTerrain
 Category = Continent
 Pokedex = Groudon has appeared in mythology as the creator of the land. It sleeps in magma underground and is said to make volcanoes erupt on awakening.
 Generation = 3
+Flags = Legendary
 #-------------------------------
 [RAYQUAZA]
 Name = Rayquaza
@@ -10131,6 +10149,7 @@ Habitat = Rare
 Category = Sky High
 Pokedex = A Pokémon that flies endlessly in the ozone layer. It is said it would descend to the ground if Kyogre and Groudon were to fight.
 Generation = 3
+Flags = Legendary
 #-------------------------------
 [JIRACHI]
 Name = Jirachi
@@ -10158,6 +10177,7 @@ Generation = 3
 WildItemCommon = STARPIECE
 WildItemUncommon = STARPIECE
 WildItemRare = STARPIECE
+Flags = Legendary
 #-------------------------------
 [DEOXYS]
 Name = Deoxys
@@ -10183,6 +10203,7 @@ Category = DNA
 Pokedex = A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.
 FormName = Normal Forme
 Generation = 3
+Flags = Legendary
 #-------------------------------
 [TURTWIG]
 Name = Turtwig
@@ -12554,6 +12575,7 @@ Shape = BipedalTail
 Category = Knowledge
 Pokedex = Known as "The Being of Knowledge." It is said that it can wipe out the memory of those who see its eyes.
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [MESPRIT]
 Name = Mesprit
@@ -12577,6 +12599,7 @@ Shape = BipedalTail
 Category = Emotion
 Pokedex = Known as "The Being of Emotion." It taught humans the nobility of sorrow, pain, and joy.
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [AZELF]
 Name = Azelf
@@ -12600,6 +12623,7 @@ Shape = BipedalTail
 Category = Willpower
 Pokedex = Known as "The Being of Willpower." It sleeps at the bottom of a lake to keep the world in balance.
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [DIALGA]
 Name = Dialga
@@ -12624,6 +12648,7 @@ Shape = Quadruped
 Category = Temporal
 Pokedex = It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [PALKIA]
 Name = Palkia
@@ -12648,6 +12673,7 @@ Shape = BipedalTail
 Category = Spatial
 Pokedex = It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [HEATRAN]
 Name = Heatran
@@ -12672,6 +12698,7 @@ Shape = Quadruped
 Category = Lava Dome
 Pokedex = It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [REGIGIGAS]
 Name = Regigigas
@@ -12695,6 +12722,7 @@ Shape = Bipedal
 Category = Colossal
 Pokedex = There is an enduring legend that states this Pokémon towed continents with ropes.
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [GIRATINA]
 Name = Giratina
@@ -12720,6 +12748,7 @@ Category = Renegade
 Pokedex = A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.
 FormName = Altered Forme
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [CRESSELIA]
 Name = Cresselia
@@ -12743,6 +12772,7 @@ Shape = Serpentine
 Category = Lunar
 Pokedex = Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [PHIONE]
 Name = Phione
@@ -12766,6 +12796,7 @@ Shape = HeadArms
 Category = Sea Drifter
 Pokedex = A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food.
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [MANAPHY]
 Name = Manaphy
@@ -12790,6 +12821,7 @@ Shape = Bipedal
 Category = Seafaring
 Pokedex = Born on a cold seafloor, it will swim great distances to return to its birthplace.
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [DARKRAI]
 Name = Darkrai
@@ -12813,6 +12845,7 @@ Shape = Bipedal
 Category = Pitch-Black
 Pokedex = It can lull people to sleep and make them dream. It is active during nights of the new moon.
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [SHAYMIN]
 Name = Shaymin
@@ -12840,6 +12873,7 @@ Generation = 4
 WildItemCommon = LUMBERRY
 WildItemUncommon = LUMBERRY
 WildItemRare = LUMBERRY
+Flags = Legendary
 #-------------------------------
 [ARCEUS]
 Name = Arceus
@@ -12864,6 +12898,7 @@ Category = Alpha
 Pokedex = It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.
 FormName = Normal Type
 Generation = 4
+Flags = Legendary
 #-------------------------------
 [VICTINI]
 Name = Victini
@@ -12887,6 +12922,7 @@ Shape = Bipedal
 Category = Victory
 Pokedex = This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [SNIVY]
 Name = Snivy
@@ -16521,6 +16557,7 @@ Shape = Quadruped
 Category = Iron Will
 Pokedex = It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [TERRAKION]
 Name = Terrakion
@@ -16544,6 +16581,7 @@ Shape = Quadruped
 Category = Cavern
 Pokedex = Its charge is strong enough to break through a giant castle wall in one blow. This Pokémon is spoken of in legends.
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [VIRIZION]
 Name = Virizion
@@ -16567,6 +16605,7 @@ Shape = Quadruped
 Category = Grassland
 Pokedex = Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [TORNADUS]
 Name = Tornadus
@@ -16592,6 +16631,7 @@ Category = Cyclone
 Pokedex = Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.
 FormName = Incarnate Forme
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [THUNDURUS]
 Name = Thundurus
@@ -16617,6 +16657,7 @@ Category = Bolt Strike
 Pokedex = The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.
 FormName = Incarnate Forme
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [RESHIRAM]
 Name = Reshiram
@@ -16640,6 +16681,7 @@ Shape = Winged
 Category = Vast White
 Pokedex = When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [ZEKROM]
 Name = Zekrom
@@ -16663,6 +16705,7 @@ Shape = BipedalTail
 Category = Deep Black
 Pokedex = This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [LANDORUS]
 Name = Landorus
@@ -16688,6 +16731,7 @@ Category = Abundance
 Pokedex = The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size.
 FormName = Incarnate Forme
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [KYUREM]
 Name = Kyurem
@@ -16711,6 +16755,7 @@ Shape = BipedalTail
 Category = Boundary
 Pokedex = It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [KELDEO]
 Name = Keldeo
@@ -16735,6 +16780,7 @@ Category = Colt
 Pokedex = It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.
 FormName = Ordinary Form
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [MELOETTA]
 Name = Meloetta
@@ -16762,6 +16808,7 @@ Generation = 5
 WildItemCommon = STARPIECE
 WildItemUncommon = STARPIECE
 WildItemRare = STARPIECE
+Flags = Legendary
 #-------------------------------
 [GENESECT]
 Name = Genesect
@@ -16786,6 +16833,7 @@ Category = Paleozoic
 Pokedex = This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.
 FormName = Normal
 Generation = 5
+Flags = Legendary
 #-------------------------------
 [CHESPIN]
 Name = Chespin
@@ -18469,6 +18517,7 @@ Category = Life
 Pokedex = Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.
 FormName = Neutral Mode
 Generation = 6
+Flags = Legendary
 #-------------------------------
 [YVELTAL]
 Name = Yveltal
@@ -18492,6 +18541,7 @@ Shape = Winged
 Category = Destruction
 Pokedex = When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.
 Generation = 6
+Flags = Legendary
 #-------------------------------
 [ZYGARDE]
 Name = Zygarde
@@ -18516,6 +18566,7 @@ Category = Order
 Pokedex = It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.
 FormName = 50% Forme
 Generation = 6
+Flags = Legendary
 #-------------------------------
 [DIANCIE]
 Name = Diancie
@@ -18539,6 +18590,7 @@ Shape = HeadArms
 Category = Jewel
 Pokedex = A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.
 Generation = 6
+Flags = Legendary
 #-------------------------------
 [HOOPA]
 Name = Hoopa
@@ -18563,6 +18615,7 @@ Category = Mischief
 Pokedex = This troublemaker sends anything and everything to faraway places using its loop, which can warp space.
 FormName = Hoopa Confined
 Generation = 6
+Flags = Legendary
 #-------------------------------
 [VOLCANION]
 Name = Volcanion
@@ -18586,6 +18639,7 @@ Shape = Quadruped
 Category = Steam
 Pokedex = It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.
 Generation = 6
+Flags = Legendary
 #-------------------------------
 [ROWLET]
 Name = Rowlet
@@ -20215,6 +20269,7 @@ Shape = HeadArms
 Category = Land Spirit
 Pokedex = Although it's called a guardian deity, if a person or Pokémon puts it in a bad mood, it will become a malevolent deity and attack.
 Generation = 7
+Flags = Legendary
 #-------------------------------
 [TAPULELE]
 Name = Tapu Lele
@@ -20239,6 +20294,7 @@ Shape = HeadArms
 Category = Land Spirit
 Pokedex = As it flutters about, it scatters its strangely glowing scales. Touching them is said to restore good health on the spot.
 Generation = 7
+Flags = Legendary
 #-------------------------------
 [TAPUBULU]
 Name = Tapu Bulu
@@ -20263,6 +20319,7 @@ Shape = HeadArms
 Category = Land Spirit
 Pokedex = It pulls large trees up by the roots and swings them around. It causes vegetation to grow, and then it absorbs energy from the growth.
 Generation = 7
+Flags = Legendary
 #-------------------------------
 [TAPUFINI]
 Name = Tapu Fini
@@ -20287,6 +20344,7 @@ Shape = HeadArms
 Category = Land Spirit
 Pokedex = The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.
 Generation = 7
+Flags = Legendary
 #-------------------------------
 [COSMOG]
 Name = Cosmog
@@ -20310,6 +20368,7 @@ Category = Nebula
 Pokedex = Whether or not it's a Pokémon from this world is a mystery. When it's in a jam, it warps away to a safe place to hide.
 Generation = 7
 Evolutions = COSMOEM,Level,43
+Flags = Legendary
 #-------------------------------
 [COSMOEM]
 Name = Cosmoem
@@ -20334,6 +20393,7 @@ Category = Protostar
 Pokedex = Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars.
 Generation = 7
 Evolutions = SOLGALEO,LevelDay,53,LUNALA,LevelNight,53
+Flags = Legendary
 #-------------------------------
 [SOLGALEO]
 Name = Solgaleo
@@ -20357,6 +20417,7 @@ Shape = Quadruped
 Category = Sunne
 Pokedex = It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.
 Generation = 7
+Flags = Legendary
 #-------------------------------
 [LUNALA]
 Name = Lunala
@@ -20380,6 +20441,7 @@ Shape = Winged
 Category = Moone
 Pokedex = Said to live in another world, this Pokémon devours light, drawing the moonless dark veil of night over the brightness of day.
 Generation = 7
+Flags = Legendary
 #-------------------------------
 [NIHILEGO]
 Name = Nihilego
@@ -20571,6 +20633,7 @@ Shape = HeadArms
 Category = Prism
 Pokedex = Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams.
 Generation = 7
+Flags = Legendary
 #-------------------------------
 [MAGEARNA]
 Name = Magearna
@@ -20594,6 +20657,7 @@ Shape = Bipedal
 Category = Artificial
 Pokedex = This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak.
 Generation = 7
+Flags = Legendary
 #-------------------------------
 [MARSHADOW]
 Name = Marshadow
@@ -20617,6 +20681,7 @@ Shape = Bipedal
 Category = Gloomdweller
 Pokedex = Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.
 Generation = 7
+Flags = Legendary
 #-------------------------------
 [POIPOLE]
 Name = Poipole
@@ -20737,6 +20802,7 @@ Shape = Bipedal
 Category = Thunderclap
 Pokedex = It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.
 Generation = 7
+Flags = Legendary
 #-------------------------------
 [MELTAN]
 Name = Meltan
@@ -20760,6 +20826,7 @@ Shape = Head
 Category = Hex Nut
 Pokedex = It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.
 Generation = 7
+Flags = Legendary
 Evolutions = MELMETAL,Level,45
 #-------------------------------
 [MELMETAL]
@@ -20784,6 +20851,7 @@ Shape = Bipedal
 Category = Hex Nut
 Pokedex = Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.
 Generation = 7
+Flags = Legendary
 #-------------------------------
 [GROOKEY]
 Name = Grookey
@@ -22768,6 +22836,7 @@ Generation = 8
 WildItemCommon = RUSTEDSWORD
 WildItemUncommon = RUSTEDSWORD
 WildItemRare = RUSTEDSWORD
+Flags = Legendary
 #-------------------------------
 [ZAMAZENTA]
 Name = Zamazenta
@@ -22795,6 +22864,7 @@ Generation = 8
 WildItemCommon = RUSTEDSHIELD
 WildItemUncommon = RUSTEDSHIELD
 WildItemRare = RUSTEDSHIELD
+Flags = Legendary
 #-------------------------------
 [ETERNATUS]
 Name = Eternatus
@@ -22818,6 +22888,7 @@ Shape = Winged
 Category = Gigantic
 Pokedex = The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.
 Generation = 8
+Flags = Legendary
 #-------------------------------
 [KUBFU]
 Name = Kubfu
@@ -22842,6 +22913,7 @@ Shape = BipedalTail
 Category = Wushu
 Pokedex = Kubfu trains hard to perfect its moves. The moves it masters will determine which form it takes when it evolves.
 Generation = 8
+Flags = Legendary
 Evolutions = URSHIFU,Event,1,URSHIFU,Item,SCROLLOFDARKNESS,URSHIFU,Item,SCROLLOFWATERS
 #-------------------------------
 [URSHIFU]
@@ -22867,6 +22939,7 @@ Category = Wushu
 Pokedex = Inhabiting the mountains of a distant region, this Pokémon races across sheer cliffs, training its legs and refining its moves.
 FormName = Single Strike Style
 Generation = 8
+Flags = Legendary
 #-------------------------------
 [ZARUDE]
 Name = Zarude
@@ -22890,6 +22963,7 @@ Shape = BipedalTail
 Category = Rogue Monkey
 Pokedex = Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow.
 Generation = 8
+Flags = Legendary
 #-------------------------------
 [REGIELEKI]
 Name = Regieleki
@@ -22913,6 +22987,7 @@ Shape = Bipedal
 Category = Electron
 Pokedex = This Pokémon is a cluster of electrical energy. It's said that removing the rings on Regieleki's body will unleash the Pokémon's latent power.
 Generation = 8
+Flags = Legendary
 #-------------------------------
 [REGIDRAGO]
 Name = Regidrago
@@ -22936,6 +23011,7 @@ Shape = Bipedal
 Category = Dragon Orb
 Pokedex = Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon.
 Generation = 8
+Flags = Legendary
 #-------------------------------
 [GLASTRIER]
 Name = Glastrier
@@ -22959,6 +23035,7 @@ Shape = Quadruped
 Category = Wild Horse
 Pokedex = Glastrier has tremendous physical strength, and the mask of ice covering its face is 100 times harder than diamond.
 Generation = 8
+Flags = Legendary
 #-------------------------------
 [SPECTRIER]
 Name = Spectrier
@@ -22982,6 +23059,7 @@ Shape = Quadruped
 Category = Swift Horse
 Pokedex = As it dashes through the night, Spectrier absorbs the life-force of sleeping creatures. It craves silence and solitude.
 Generation = 8
+Flags = Legendary
 #-------------------------------
 [CALYREX]
 Name = Calyrex
@@ -23005,6 +23083,7 @@ Shape = Bipedal
 Category = King
 Pokedex = Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.
 Generation = 8
+Flags = Legendary
 #-------------------------------
 # Legends Arceus
 #-------------------------------
@@ -23185,6 +23264,7 @@ Category = Abundance
 Pokedex = When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.
 FormName = Incarnate Forme
 Generation = 8
+Flags = Legendary
 #-------------------------------
 # Generation IX
 #-------------------------------
@@ -25281,6 +25361,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [SCREAMTAIL]
 Name = Scream Tail
@@ -25305,6 +25386,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [BRUTEBONNET]
 Name = Brute Bonnet
@@ -25329,6 +25411,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [FLUTTERMANE]
 Name = Flutter Mane
@@ -25353,6 +25436,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = This Pokémon has characteristics similar to those of Flutter Mane, a creature mentioned in a certain book.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [SLITHERWING]
 Name = Slither Wing
@@ -25377,6 +25461,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [SANDYSHOCKS]
 Name = Sandy Shocks
@@ -25401,6 +25486,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = No records exist of this Pokémon being caught. Data is lacking, but the Pokémon’s traits match up with a creature shown in an expedition journal.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [IRONTREADS]
 Name = Iron Treads
@@ -25425,6 +25511,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = This Pokémon closely resembles a scientific weapon that a paranormal magazine claimed was sent to this planet by aliens.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [IRONBUNDLE]
 Name = Iron Bundle
@@ -25449,6 +25536,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [IRONHANDS]
 Name = Iron Hands
@@ -25473,6 +25561,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = It is very similar to a cyborg covered exclusively by a paranormal magazine. The cyborg was said to be the modified form of a certain athlete.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [IRONJUGULIS]
 Name = Iron Jugulis
@@ -25497,6 +25586,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = It resembles a certain Pokémon introduced in a paranormal magazine, described as the offspring of a Hydreigon that fell in love with a robot.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [IRONMOTH]
 Name = Iron Moth
@@ -25521,6 +25611,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [IRONTHORNS]
 Name = Iron Thorns
@@ -25545,6 +25636,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [FRIGIBAX]
 Name = Frigibax
@@ -25700,6 +25792,7 @@ Habitat = Rare
 Category = Ruinous
 Pokedex = The grudge of a person punished for writing the king’s evil deeds upon wooden tablets has clad itself in dead leaves to become a Pokémon.
 Generation = 9
+Flags = Legendary
 #-------------------------------
 [CHIENPAO]
 Name = Chien-Pao
@@ -25724,6 +25817,7 @@ Habitat = Rare
 Category = Ruinous
 Pokedex = This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.
 Generation = 9
+Flags = Legendary
 #-------------------------------
 [TINGLU]
 Name = Ting-Lu
@@ -25748,6 +25842,7 @@ Habitat = Rare
 Category = Ruinous
 Pokedex = The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.
 Generation = 9
+Flags = Legendary
 #-------------------------------
 [CHIYU]
 Name = Chi-Yu
@@ -25772,6 +25867,7 @@ Habitat = Rare
 Category = Ruinous
 Pokedex = It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.
 Generation = 9
+Flags = Legendary
 #-------------------------------
 [ROARINGMOON]
 Name = Roaring Moon
@@ -25796,6 +25892,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [IRONVALIANT]
 Name = Iron Valiant
@@ -25820,6 +25917,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = It has some similarities to a mad scientist’s invention covered in a paranormal magazine.
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [KORAIDON]
 Name = Koraidon
@@ -25844,6 +25942,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.
 Generation = 9
+Flags = Legendary
 #-------------------------------
 [MIRAIDON]
 Name = Miraidon
@@ -25868,6 +25967,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.
 Generation = 9
+Flags = Legendary
 #-------------------------------
 [WALKINGWAKE]
 Name = Walking Wake
@@ -25892,6 +25992,7 @@ Habitat = Rare
 Category = Paradox
 Pokedex = .
 Generation = 9
+Flags = Paradox
 #-------------------------------
 [IRONLEAVES]
 Name = Iron Leaves
@@ -25916,3 +26017,4 @@ Habitat = Rare
 Category = Paradox
 Pokedex = .
 Generation = 9
+Flags = Paradox

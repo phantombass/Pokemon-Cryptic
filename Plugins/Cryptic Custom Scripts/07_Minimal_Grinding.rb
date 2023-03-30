@@ -1,7 +1,7 @@
 MenuHandlers.add(:party_menu, :min_grinding, {
   "name"      => _INTL("Minimal Grinding..."),
   "order"     => 33,
-  "condition"   => proc { next ($game_switches[59] && $game_map.map_id == 32) },
+  "condition"   => proc { next ($PokemonSystem.min_grinding == 1 && $game_map.map_id == 32) },
   "effect"    => proc { |screen, party, party_idx|
     @viewport1 = Viewport.new(0, 0, Graphics.width, Graphics.height)
     @viewport1.z = 99999
@@ -263,7 +263,7 @@ MenuHandlers.add(:min_grinding_options, :nature, {
 MenuHandlers.add(:party_menu, :evolve, {
   "name"      => _INTL("Evolve"),
   "order"     => 34,
-  "condition"   => proc { next $game_switches[59] },
+  "condition"   => proc { next $PokemonSystem.min_grinding == 1 },
   "effect"    => proc { |screen, party, party_idx|
     pkmn = party[party_idx]
     evoreqs = {}
@@ -314,5 +314,33 @@ MenuHandlers.add(:party_menu, :evolve, {
         evo.pbEndScreen
         screen.pbRefresh
       }
+  }
+})
+
+MenuHandlers.add(:party_menu, :relearn, {
+  "name"      => _INTL("Relearn Moves"),
+  "order"     => 31,
+  "condition"   => proc { next $game_map.map_id == 32 && $PokemonSystem.relearn == 1},
+  "effect"    => proc { |screen, party, party_idx|
+    pkmn = party[party_idx]
+    if pkmn.can_relearn_move?
+      pbRelearnMoveScreen(pkmn)
+    else
+      screen.pbDisplay(_INTL("This Pokémon cannot relearn any moves."))
+    end
+  }
+})
+
+MenuHandlers.add(:party_menu, :egg_moves, {
+  "name"      => _INTL("Teach Egg Moves"),
+  "order"     => 32,
+  "condition"   => proc { next $game_map.map_id == 32 && $PokemonSystem.egg_tutor == 1 },
+  "effect"    => proc { |screen, party, party_idx|
+    pkmn = party[party_idx]
+    if pkmn.has_egg_move?
+      pbEggMoveScreen(pkmn)
+    else
+      screen.pbDisplay(_INTL("This Pokémon cannot relearn any moves."))
+    end
   }
 })

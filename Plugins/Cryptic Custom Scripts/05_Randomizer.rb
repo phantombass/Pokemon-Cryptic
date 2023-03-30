@@ -9,9 +9,28 @@ class Randomizer
 	    return keys
 	end
 
+    def self.all_types
+        keys = []
+        GameData::Type.each { |type| keys.push(type.id)}
+        return keys
+    end
+
+    def self.generate_dungeon_types
+        types = self.all_types
+        type = []
+        loop do
+            t = types[rand(types.length)]
+            type.push(t) if !type.include?(t)
+            break if type.length == 6
+        end
+        $game_variables[90] = type
+    end
+
 	def self.levelRand
-		lvl = [5,10,20,25,30,40,45,50]
-		return lvl[rand(lvl.length)]
+		lvl = [5,15,25,30,35,45,55,65,75,75,75,75,75]
+        level = lvl[$game_system.level_cap] - rand(3)
+        level = 1 if level < 1
+		return lvl[$game_system.level_cap]
 	end
 
 	def self.getRandomizedData(data, symbol, index = nil)
@@ -49,7 +68,8 @@ class Randomizer
 	  starter_names = []
 	  loop do
 		 mon = species[rand(species.length)]
-		 starters.push(mon) if !starters.include?(mon)
+         flags = GameData::Species.get(mon).flags
+		 starters.push(mon) if !starters.include?(mon) && !["Legendary","UltraBeast","Paradox"].include?(flags)
 		 break if starters.length == 3
 	  end
 	  for i in 0...starters.length
@@ -63,50 +83,37 @@ class Randomizer
 	end
 
 	def self.randomizeTrainers
-        list = [:HIKER,:FISHERMAN,:LASS,:YOUNGSTER,:LADY,:BUGCATCHER,:GENTLEMAN,:RUINMANIAC,:PSYCHIC_M,:ENGINEER,:SCIENTIST,:SUPERNERD,:BURGLAR,
-            :BLACKBELT,:CRUSHGIRL,:TUBER_F,:BIRDKEEPER,:TAMER,:CHANELLER]
-        boss = ["Allen","Jacub","Ash","Hestia","Ducky","Phantombass"]
-        chosen = []
-        ver = []
+        list = [:LEADER_Brock,:LEADER_Misty,:LEADER_Surge,:LEADER_Erika,:LEADER_Koga,:LEADER_Sabrina,:LEADER_Blaine,:LEADER_Giovanni]
+        league = [:ELITEFOUR_Lorelei,:ELITEFOUR_Bruno,:ELITEFOUR_Agatha,:ELITEFOUR_Lance]
         pick = 0
+        new_list = []
+        league_list = []
+        ver = []
         loop do
             c = rand(list.length)
             choice = list[c]
-            next if chosen.include?(choice)
-            chosen.push(choice)
+            next if new_list.include?(choice)
+            new_list.push(choice)
             pick += 1
-            break if pick == 14
+            break if pick == list.length
         end
-        $game_switches[117] = true if rand(100) > 90
-        for i in 0...chosen.length
+        loop do
+            c = rand(league.length)
+            choice = league[c]
+            next if league_list.include?(choice)
+            league_list.push(choice)
+            pick += 1
+            break if pick == league.length
+        end
+        for i in 0...new_list.length
             l = 0
-            vers = []
-            loop do
-                num = rand(5)
-                next if vers.include?(num)
-                vers.push(num)
-                l += 1
-                break if l == 3
-            end
-            ver.push(vers)
+            ver.push(l)
+            l += 1 if l < 3
         end
-        $game_variables[80] = chosen
-        $game_variables[81] = boss[rand(boss.length)]
-        $game_variables[82] = vers
-        $game_switches[200] = true if ["Ash","Hestia"].include?($game_variables[81])
+        $game_variables[80] = new_list
+        $game_variables[81] = league_list
+        $game_variables[82] = ver
     end
-end
-
-def getTrainerType
-    trainer_types = $game_variables[80]
-    prev = $game_variables[85]
-    ret = trainer_types[prev+1]
-    $game_variables[85] += 1
-    if $game_variables[85] > trainer_types.length-1
-        $game_variables[86] += 1
-        $game_variables[85] = -1
-    end
-    return ret
 end
 
 def trainerForm(trainer_type,num)
@@ -150,7 +157,9 @@ class WildBattle
     # Potentially call a different WildBattle.start-type method instead (for
     # roaming Pokémon, Safari battles, Bug Contest battles)
     spec = Randomizer.all_species
-    foe_party[0].species = spec[rand(spec.length)]
+    randMon = spec[rand(spec.length)]
+    flags = GameData::Species.get(randMon).flags
+    foe_party[0].species = randMon if !["Legendary","UltraBeast","Paradox"].include?(flags)
     foe_party[0].level = Randomizer.levelRand
     foe_party[0].reset_moves
     foe_party[0].calc_stats
